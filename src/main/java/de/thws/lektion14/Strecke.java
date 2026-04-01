@@ -1,9 +1,9 @@
-package Lektion14;
+package de.thws.lektion14;
 
 public class Strecke {
 
-    public int A;
-    public int B;
+    int A;
+    int B;
 
     public Strecke(int zahl1, int zahl2) {
         if(zahl1 < 0 || zahl2 < 0){

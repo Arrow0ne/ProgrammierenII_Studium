@@ -1,6 +1,5 @@
-package Lektion14Test;
+package de.thws.lektion14;
 
-import Lektion14.Strecke;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

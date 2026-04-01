@@ -1,10 +1,10 @@
-package Lektion14;
+package de.thws.lektion14;
 
 public class Adresse {
-    public String strasse;
-    public String hausnummer;
-    public int postleitzahl;
-    public String ort;
+    String strasse;
+    String hausnummer;
+    int postleitzahl;
+    String ort;
 
     public Adresse(String strasse, String hausnummer, int postleitzahl, String ort){
         if(Character.isLowerCase(strasse.charAt(0))){

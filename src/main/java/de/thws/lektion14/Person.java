@@ -1,9 +1,9 @@
-package Lektion14;
+package de.thws.lektion14;
 
 public class Person {
-    public String vorname;
-    public String nachname;
-    public Adresse adresse;
+    String vorname;
+    String nachname;
+    Adresse adresse;
 
     public Person(String vorname, String nachname, String strasse, String hausnummer, int postleitzahl, String ort){
         if(Character.isLowerCase(vorname.charAt(0))){
@@ -11,6 +11,6 @@ public class Person {
         }
         this.vorname = vorname;
         this.nachname = nachname;
-        adresse = new Adresse(strasse, hausnummer, postleitzahl, ort);
+        this.adresse = new Adresse(strasse, hausnummer, postleitzahl, ort);
     }
 }
