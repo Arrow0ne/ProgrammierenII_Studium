@@ -1,4 +1,4 @@
-package de.thws.lektion15.schach;
+package de.thws.lektion16.schach;
 
 import org.junit.jupiter.api.Test;
 
