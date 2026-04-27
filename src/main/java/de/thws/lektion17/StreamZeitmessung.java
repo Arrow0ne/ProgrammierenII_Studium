@@ -2,11 +2,7 @@ package de.thws.lektion17;
 
 import java.io.*;
 import java.util.Scanner;
-
 /*
- * Aufgabe: Zeitmessung un-/gepufferter Streams
- * FHWS – Modul Programmieren 2, Prof. Dr. Steffen Heinzl
- *
  * Vergleicht drei Kopiermethoden einer Musikdatei:
  *   1. Byteweise mit ungepuffertem Stream
  *   2. Byteweise mit gepuffertem Stream
